@@ -9,7 +9,7 @@ const deductions = [
   { name: "ESI", rate: 0.0075 }, // ESI: 0.75% of Basic Salary
 ];
 
-const result = estimateBasicSalary(I, benefits, deductions);
+const result = estimateBasicSalary(I, benefits, deductions, true);
 
 console.log(`\n\nEstimated Basic Salary: ₹${result.basicSalary.toFixed(2)}`);
 console.log(`Additional Benifit: ₹${result.additionalBenefits.toFixed(2)}`);

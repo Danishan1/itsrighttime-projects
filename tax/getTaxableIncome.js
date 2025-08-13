@@ -22,5 +22,5 @@ export function getTaxableIncome(
     console.log(`Taxable Income (TI): ₹${TI.toFixed(2)}`);
   }
 
-  return { TI };
+  return TI;
 }
